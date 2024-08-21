@@ -1,0 +1,16 @@
+.container {
+  font-family: "Cormorant Garamond", serif;
+  font-size: large;
+}
+
+h4 {
+  color: #fbd784;
+}
+
+a {
+  color: white;
+
+  &:hover {
+    color: #fbd784;
+  }
+}
