@@ -1,0 +1,11 @@
+.tagline-line {
+  width: 72px;
+  height: 2px;
+  margin-right: 24px;
+  background-color: #fbd784;
+}
+
+h5 {
+  color: #fbd784;
+  font-family: "Cinzel", serif;
+}

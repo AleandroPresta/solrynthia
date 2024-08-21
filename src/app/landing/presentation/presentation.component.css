@@ -1,20 +1,5 @@
-h5 {
-  font-family: "Cinzel", serif;
-}
-
 h1 {
   font-family: "Cormorant Garamond", serif;
-}
-
-.tagline-line {
-  width: 72px;
-  height: 2px;
-  margin-right: 24px;
-  background-color: #fbd784;
-}
-
-h5 {
-  color: #fbd784;
 }
 
 .text-box {
