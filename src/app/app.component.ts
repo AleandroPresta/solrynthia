@@ -4,12 +4,14 @@ import { LandingComponent } from "./landing/landing.component";
 import { ShowcaseLeftComponent } from './showcase-left/showcase-left.component';
 import { ShowcaseRightComponent } from './showcase-right/showcase-right.component';
 import { CustomFooterComponent } from './custom-footer/custom-footer.component';
+import { CustomNavigationComponent } from './custom-navigation/custom-navigation.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [
     RouterOutlet,
+    CustomNavigationComponent,
     LandingComponent,
     ShowcaseLeftComponent,
     ShowcaseRightComponent,

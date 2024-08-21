@@ -1,13 +1,32 @@
 <div class="container-fluid d-flex justify-content-between my-4 px-sm-5">
-    <a class="text-decoration-none fw-bold h3">Solrynthia</a>
-    <ul class="d-none d-lg-flex flex-row gap-5">
-        <li><a class="text-decoration-none fw-semibold raised-text" href="#">Explore</a></li>
-        <li><a class="text-decoration-none fw-semibold raised-text" href="#">About Us</a></li>
-        <li><a class="text-decoration-none fw-semibold raised-text" href="#">Blog</a></li>
-    </ul>
-    <div class="d-flex gap-2 account-container">
-        <app-account-icon></app-account-icon>
-        <a class="text-decoration-none fw-semibold">Account</a>
-    </div>
+  <a class="text-decoration-none fw-bold h3">Solrynthia</a>
+  <ul class="d-none d-lg-flex flex-row gap-5">
+    <li>
+      <a class="text-decoration-none fw-semibold raised-text" href="#"
+        >Explore</a
+      >
+    </li>
+    <li>
+      <a 
+      class="text-decoration-none fw-semibold raised-text" 
+      routerLink="/about"
+      routerLinkActive="active"
+      ariaCurrentWhenActive="page"
+        >About Us</a
+      >
+    </li>
+    <li>
+      <a 
+      class="text-decoration-none fw-semibold raised-text"
+      routerLink="/blog"
+      routerLinkActive="active"
+      ariaCurrentWhenActive="page"
+      >Blog</a>
+    </li>
+  </ul>
+  <div class="d-flex gap-2 account-container">
+    <app-account-icon></app-account-icon>
+    <a class="text-decoration-none fw-semibold">Account</a>
+  </div>
 </div>
-
+<router-outlet></router-outlet>

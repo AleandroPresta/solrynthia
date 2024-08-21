@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 import { CustomNavigationComponent } from '../custom-navigation/custom-navigation.component';
-import { LandingComponent } from '../landing/landing.component';
+import { CustomFooterComponent } from '../custom-footer/custom-footer.component';
 import { ShowcaseLeftComponent } from '../showcase-left/showcase-left.component';
 import { ShowcaseRightComponent } from '../showcase-right/showcase-right.component';
-import { CustomFooterComponent } from '../custom-footer/custom-footer.component';
+import { LandingComponent } from '../landing/landing.component';
+import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -12,10 +12,10 @@ import { CustomFooterComponent } from '../custom-footer/custom-footer.component'
   imports: [
     RouterOutlet,
     CustomNavigationComponent,
-    LandingComponent,
+    CustomFooterComponent,
     ShowcaseLeftComponent,
     ShowcaseRightComponent,
-    CustomFooterComponent
+    LandingComponent
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
