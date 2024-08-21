@@ -1,0 +1,41 @@
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: white;
+  font-family: "Cinzel", serif;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+li > a {
+  &:hover {
+    color: #fbd784;
+  }
+}
+
+.account-container {
+  color: white;
+}
+
+.account-container:hover {
+  color: #fbd784;
+  cursor: pointer;
+}
+
+.account-container:hover a,
+.account-container:hover app-account-icon {
+  color: inherit; /* Inherit the yellow color from the parent */
+}
+
+.raised-text {
+  display: inline-block; /* Ensure the transform doesn't affect other elements */
+  transition: transform 0.4s ease; /* Smooth transition effect */
+}
+
+.raised-text:hover {
+  transform: translateY(-5px); /* Moves the text 10px to the right */
+}
