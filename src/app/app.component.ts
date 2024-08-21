@@ -3,6 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { LandingComponent } from "./landing/landing.component";
 import { ShowcaseLeftComponent } from './showcase-left/showcase-left.component';
 import { ShowcaseRightComponent } from './showcase-right/showcase-right.component';
+import { CustomFooterComponent } from './custom-footer/custom-footer.component';
 
 @Component({
   selector: 'app-root',
@@ -11,7 +12,8 @@ import { ShowcaseRightComponent } from './showcase-right/showcase-right.componen
     RouterOutlet,
     LandingComponent,
     ShowcaseLeftComponent,
-    ShowcaseRightComponent
+    ShowcaseRightComponent,
+    CustomFooterComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
