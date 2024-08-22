@@ -1,0 +1,63 @@
+.responsive-img {
+  /* Fixed size on large screens */
+  width: 420px;
+  height: 600px;
+  object-fit: cover; /* Optional: ensures the image covers the area without distortion */
+}
+
+/* One breakpoint at the sm size that makes the image a little bit smaller */
+@media (max-width: 475px) {
+  .responsive-img {
+    width: 350px;
+    height: 530px;
+  }
+}
+
+/* One breakpoint at the sm size that makes the image a little bit smaller */
+@media (max-width: 385px) {
+  .responsive-img {
+    width: 320px;
+    height: 500px;
+  }
+}
+
+.hover-image {
+  background: transparent;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+}
+
+.hover-image:hover {
+  background: rgba(33, 37, 41, 0.7);
+}
+
+.hover-image > h3 {
+  width: 100%;
+  font-weight: 500;
+  color: white;
+  font-size: 26px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  opacity: 0;
+  transition: 0.5s;
+  text-align: center;
+}
+
+.hover-image:hover > h3 {
+  bottom: 49%;
+  opacity: 1;
+}
+
+.card-container {
+  position: relative;
+}
+
+h3 {
+  font-family: "Cormorant Garamond", serif;
+}
