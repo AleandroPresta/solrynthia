@@ -10,8 +10,8 @@ import { Component, Input } from '@angular/core';
 export class CharacterCardComponent {
 
   @Input() pageUrl: string = '';
-  @Input() coverImageUrl: string = "https://ggayane.github.io/css-experiments/cards/dark_rider-cover.jpg";
-  @Input() titleImageUrl: string = "https://ggayane.github.io/css-experiments/cards/dark_rider-title.png";
-  @Input() cardImageUrl: string = "https://ggayane.github.io/css-experiments/cards/dark_rider-character.webp";
+  @Input() coverImageUrl: string = '';
+  @Input() titleImageUrl: string = '';
+  @Input() cardImageUrl: string = '';
 
 }

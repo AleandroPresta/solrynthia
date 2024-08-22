@@ -4,9 +4,9 @@
   >
     <div class="">
       <app-tagline [content]="'Character'"></app-tagline>
-      <h1>Character Name</h1>
+      <h1>{{name}}</h1>
       <p class="limited-width">
-        Character Description
+        {{description}}
       </p>
       <a href="#" class="d-flex gap-2 text-decoration-none raised-text">
         <div>read more</div>
@@ -28,6 +28,10 @@
     </div>
     <div class="d-flex justify-content-center align-items-center">
       <app-character-card
+      [pageUrl]="pageUrl"
+      [coverImageUrl]="coverImageUrl"
+      [titleImageUrl]="titleImageUrl"
+      [cardImageUrl]="cardImageUrl"
       ></app-character-card>
     </div>
   </div>

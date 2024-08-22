@@ -12,4 +12,10 @@ import { NgFor } from '@angular/common';
 })
 export class CharacterLeftSectionComponent {
 
+  @Input() name: string = 'Name';
+  @Input() description: string = 'Description';
+  @Input() pageUrl: string = '';
+  @Input() coverImageUrl: string = "https://ggayane.github.io/css-experiments/cards/dark_rider-cover.jpg";
+  @Input() titleImageUrl: string = "https://ggayane.github.io/css-experiments/cards/dark_rider-title.png";
+  @Input() cardImageUrl: string = "https://ggayane.github.io/css-experiments/cards/dark_rider-character.webp";
 }
