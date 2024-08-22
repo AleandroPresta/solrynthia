@@ -1,0 +1,38 @@
+<section class="character-left bg-dark my-5">
+  <div
+    class="container d-flex flex-column-reverse flex-lg-row justify-content-between align-items-center gap-2 my-5"
+  >
+    <div class="">
+      <app-tagline [content]="'Character'"></app-tagline>
+      <h1>{{characterName}}</h1>
+      <p class="limited-width">
+        {{characterDescription}}
+      </p>
+      <a href="#" class="d-flex gap-2 text-decoration-none raised-text">
+        <div>read more</div>
+        <div>
+          <svg
+            width="16"
+            height="24"
+            viewBox="0 0 16 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M16 8L8 16L6.59 14.59L12.17 9H0V7H12.17L6.59 1.41L8 0L16 8Z"
+              fill="currentColor"
+            ></path>
+          </svg>
+        </div>
+      </a>
+    </div>
+    <div class="d-flex justify-content-center align-items-center">
+      <app-character-card
+      [characterCoverImageUrl]="'{{characterCoverImageUrl}}'"
+      [characterImageUrl]="'{{characterImageUrl}}'"
+      [characterPageUrl]="'{{characterPageUrl}}'"
+      [characterTitleImageUrl]="'{{characterTitleImageUrl}}'"
+      ></app-character-card>
+    </div>
+  </div>
+</section>
