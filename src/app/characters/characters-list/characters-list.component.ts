@@ -26,5 +26,21 @@ export class CharactersListComponent {
       'https://ggayane.github.io/css-experiments/cards/dark_rider-title.png',
       'https://ggayane.github.io/css-experiments/cards/dark_rider-character.webp'
     ),
+    new Character(
+      'The Cursed Mage',
+      'Description',
+      '',
+      'https://raw.githubusercontent.com/AleandroPresta/static-api/master/api/v1/solrynthria/characters/cursed_mage/cover.jpeg',
+      '',
+      'https://raw.githubusercontent.com/AleandroPresta/static-api/master/api/v1/solrynthria/characters/cursed_mage/character.png'
+    ),
+    new Character(
+      'The Lost Priest',
+      'Description',
+      '',
+      'https://raw.githubusercontent.com/AleandroPresta/static-api/master/api/v1/solrynthria/characters/lost_priest/cover.jpeg',
+      '',
+      'https://raw.githubusercontent.com/AleandroPresta/static-api/master/api/v1/solrynthria/characters/lost_priest/character.png'
+    ),
   ];
 }
