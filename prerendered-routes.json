@@ -1,5 +1,8 @@
 {
   "routes": [
-    "/"
+    "/about",
+    "/blog",
+    "/cities",
+    "/home"
   ]
 }
