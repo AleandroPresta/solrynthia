@@ -1,1 +1,8 @@
-<app-character-left-section></app-character-left-section>
+<app-character-left-section
+*ngFor="let character of charactersList"
+[name]="character.name"
+[description]="character.description"
+[pageUrl]="character.pageUrl"
+[coverImageUrl]="character.coverImageUrl"
+[titleImageUrl]="character.titleImageUrl"
+[cardImageUrl]="character.cardImageUrl"></app-character-left-section>

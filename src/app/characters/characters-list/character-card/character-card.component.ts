@@ -9,9 +9,9 @@ import { Component, Input } from '@angular/core';
 })
 export class CharacterCardComponent {
 
-  @Input() pageUrl: string = '';
-  @Input() coverImageUrl: string = '';
-  @Input() titleImageUrl: string = '';
-  @Input() cardImageUrl: string = '';
+  @Input() pageUrl!: string;
+  @Input() coverImageUrl!: string;
+  @Input() titleImageUrl!: string;
+  @Input() cardImageUrl!: string;
 
 }
