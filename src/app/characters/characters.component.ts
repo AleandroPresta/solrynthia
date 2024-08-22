@@ -1,15 +1,16 @@
 import { Component } from '@angular/core';
-import { CharactersLandingComponent } from './characters-landing/characters-landing.component';
 import { CharactersListComponent } from './characters-list/characters-list.component';
 import { CustomFooterComponent } from '../custom-footer/custom-footer.component';
+import { CustomNavigationComponent } from "../custom-navigation/custom-navigation.component";
 
 @Component({
   selector: 'app-characters',
   standalone: true,
   imports: [
-    CharactersLandingComponent,
     CharactersListComponent,
-    CustomFooterComponent
+    CustomFooterComponent,
+    CustomNavigationComponent,
+    CustomNavigationComponent
   ],
   templateUrl: './characters.component.html',
   styleUrl: './characters.component.css'

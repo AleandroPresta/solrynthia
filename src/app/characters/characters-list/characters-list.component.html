@@ -1,11 +1,38 @@
-
-<div class="container d-flex flex-column">
-<app-character-left-section
-*ngFor="let character of charactersList"
-[name]="character.name"
-[description]="character.description"
-[pageUrl]="character.pageUrl"
-[coverImageUrl]="character.coverImageUrl"
-[titleImageUrl]="character.titleImageUrl"
-[cardImageUrl]="character.cardImageUrl"></app-character-left-section>
+<div class="container">
+  <div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <app-character-left-section
+        *ngFor="let character of charactersList"
+        [ngClass]="{
+          'carousel-item': true,
+          active: character === charactersList[0]
+        }"
+        [name]="character.name"
+        [description]="character.description"
+        [pageUrl]="character.pageUrl"
+        [coverImageUrl]="character.coverImageUrl"
+        [titleImageUrl]="character.titleImageUrl"
+        [cardImageUrl]="character.cardImageUrl"
+      >
+      </app-character-left-section>
+    </div>
+    <button
+      class="carousel-control-prev"
+      type="button"
+      data-bs-target="#carouselExample"
+      data-bs-slide="prev"
+    >
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button
+      class="carousel-control-next"
+      type="button"
+      data-bs-target="#carouselExample"
+      data-bs-slide="next"
+    >
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 </div>
