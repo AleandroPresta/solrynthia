@@ -23,7 +23,7 @@ export class CharactersListComponent {
       'Description',
       '',
       'https://raw.githubusercontent.com/AleandroPresta/static-api/master/api/v1/solrynthria/characters/cursed_mage/cover.jpeg',
-      'https://raw.githubusercontent.com/AleandroPresta/static-api/master/api/v1/solrynthria/characters/cursed_mage/title.png',
+      '',
       'https://raw.githubusercontent.com/AleandroPresta/static-api/master/api/v1/solrynthria/characters/cursed_mage/character.png'
     ),
     new Character(
@@ -31,7 +31,7 @@ export class CharactersListComponent {
       'Description',
       '',
       'https://raw.githubusercontent.com/AleandroPresta/static-api/master/api/v1/solrynthria/characters/lost_priest/cover.jpeg',
-      'https://raw.githubusercontent.com/AleandroPresta/static-api/master/api/v1/solrynthria/characters/lost_priest/title.png ',
+      '',
       'https://raw.githubusercontent.com/AleandroPresta/static-api/master/api/v1/solrynthria/characters/lost_priest/character.png'
     ),
   ];
