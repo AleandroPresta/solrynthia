@@ -10,4 +10,5 @@ import { Component, Input } from '@angular/core';
 export class LandscapeCardComponent {
   @Input() name: string = 'Lake of the Ozarks';
   @Input() pageUrl: string = 'www.google.com';
+  @Input() imgUrl: string = '';
 }

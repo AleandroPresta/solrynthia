@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { LandscapeCardComponent } from "./landscape-card/landscape-card.component";
+import { Landscape } from '../Landscape';
 
 @Component({
   selector: 'app-landscapes-list',
@@ -9,5 +10,9 @@ import { LandscapeCardComponent } from "./landscape-card/landscape-card.componen
   styleUrl: './landscapes-list.component.css'
 })
 export class LandscapesListComponent {
+
+  landscapes: Landscape[] = [
+
+  ];
 
 }
