@@ -1,0 +1,81 @@
+.responsive-card {
+  /* Fixed size on large screens */
+  width: 320px;
+  height: 700px;
+  background-image: url("https://img.freepik.com/premium-photo/imaginary-landscapes_796443-992.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  overflow-x: hidden;
+  object-fit: cover; /* Optional: ensures the image covers the area without distortion */
+}
+
+.hover-image {
+  background: transparent;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+}
+
+.hover-image:hover {
+  background: rgba(33, 37, 41, 0.7);
+}
+
+.custom-text {
+  font-family: "Cormorant Garamond", serif;
+  color: #fbd784;
+  margin-top: 3.5rem;
+  margin-left: 1rem;
+}
+
+@media (max-width: 1400px) {
+  .responsive-card {
+    width: 300px;
+    height: 650px;
+  }
+}
+
+@media (max-width: 1220px) {
+  .responsive-card {
+    width: 280px;
+    height: 600px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .responsive-card {
+    width: 260px;
+    height: 550px;
+  }
+}
+
+@media (max-width: 1070px) {
+  .responsive-card {
+    width: 240px;
+    height: 500px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .responsive-card {
+    width: 220px;
+    height: 450px;
+  }
+}
+
+@media (max-width: 992px) {
+  .responsive-card {
+    width: 700px;
+    height: 700px;
+  }
+}
+
+@media (max-width: 768px) {
+  .responsive-card {
+    width: 80vw;
+    height: 500px;
+  }
+}
