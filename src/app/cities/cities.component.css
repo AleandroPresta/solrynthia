@@ -31,3 +31,12 @@ h1 {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
+.text-color-1 {
+  color: #fbd784;
+  font-family: "Cinzel", serif;
+}
+
+.text-color-2 {
+  font-family: "Cormorant Garamond", serif;
+}
