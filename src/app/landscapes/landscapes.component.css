@@ -2,3 +2,12 @@
   min-height: 100vh;
   width: 100%;
 }
+
+.text-color-1 {
+  color: #fbd784;
+  font-family: "Cinzel", serif;
+}
+
+.text-color-2 {
+  font-family: "Cormorant Garamond", serif;
+}

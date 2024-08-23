@@ -1,16 +1,9 @@
 
 <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center">
     <app-landscape-card
-    [name]="'Landscape 1'"
-    [pageUrl]="''"
-    [imgUrl]="'https://img.freepik.com/premium-photo/imaginary-landscapes_796443-992.jpg'"></app-landscape-card>
-    <app-landscape-card
-    [name]="'Landscape 2'"
-    [pageUrl]="''"></app-landscape-card>
-    <app-landscape-card
-    [name]="'Landscape 3'"
-    [pageUrl]="''"></app-landscape-card>
-    <app-landscape-card
-    [name]="'Landscape 4'"
-    [pageUrl]="''"></app-landscape-card>
+    *ngFor="let landscape of landscapes"
+    [name]="landscape.name"
+    [pageUrl]="landscape.pageUrl"
+    [imgUrl]="landscape.imgUrl">
+    </app-landscape-card>
 </div>

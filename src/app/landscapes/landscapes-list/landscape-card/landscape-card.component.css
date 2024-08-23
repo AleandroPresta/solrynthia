@@ -1,7 +1,7 @@
 .responsive-card {
   /* Fixed size on large screens */
   width: 320px;
-  height: 700px;
+  height: 630px;
   background-position: center;
   background-size: cover;
   position: relative;
@@ -28,6 +28,8 @@
   color: #fbd784;
   margin-top: 3.5rem;
   margin-left: 1rem;
+  text-shadow: -0.5px -0.5px 0 black, 0.5px -0.5px 0 black, -0.5px 0.5px 0 black,
+    0.5px 0.5px 0 black; /* Shadow in all directions for a border effect */
 }
 
 @media (max-width: 1400px) {
