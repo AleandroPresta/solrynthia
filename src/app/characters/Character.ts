@@ -1,5 +1,6 @@
 export class Character {
     name: string;
+    slug: string;
     description: string;
     pageUrl: string;
     coverImageUrl: string;
@@ -8,6 +9,7 @@ export class Character {
 
     constructor(
         name: string,
+        slug: string,
         description: string,
         pageUrl: string,
         coverImageUrl: string,
@@ -15,6 +17,7 @@ export class Character {
         cardImageUrl: string
     ) {
         this.name = name;
+        this.slug = slug;
         this.description = description;
         this.pageUrl = pageUrl;
         this.coverImageUrl = coverImageUrl;

@@ -1,0 +1,8 @@
+1.
+ng build --configuration production --base-href "https://aleandropresta.github.io/solrynthia/"
+
+2.
+move content from dist/browser to dist
+
+3.
+npx angular-cli-ghpages --dir=dist/solrynthia
