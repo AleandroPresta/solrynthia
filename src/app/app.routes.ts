@@ -5,6 +5,7 @@ import { BlogComponent } from './blog/blog.component';
 import { CitiesComponent } from './cities/cities.component';
 import { CharactersComponent } from './characters/characters.component';
 import { LandscapesComponent } from './landscapes/landscapes.component';
+import { CharacterPageComponent } from './characters/character-page/character-page.component';
 
 export const routes: Routes = [
     { path: 'home', component: HomeComponent },
@@ -12,6 +13,7 @@ export const routes: Routes = [
     { path: 'blog', component: BlogComponent },
     { path: 'cities', component: CitiesComponent },
     { path: 'characters', component: CharactersComponent },
+    { path: 'characters/:slug', component: CharacterPageComponent },
     { path: 'landscapes', component: LandscapesComponent },
     { path: '', redirectTo: '/home', pathMatch: 'full' }
 ];
