@@ -1,5 +1,5 @@
 <div class="container">
-    <a href={{pageUrl}} alt="Character Page" target="_blank">
+    <a [routerLink]="['/characters', slug]"  alt="Character Page" target="_blank">
     <div class="custom-card justify-content-center align-items-center">
         <div class="wrapper">
         <img src={{coverImageUrl}} class="cover-image" />
